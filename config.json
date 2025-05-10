@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "your_mysql_username",
+    "password": "your_mysql_password",
+    "database": "your_database_name",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "your_test_mysql_username",
+    "password": "your_test_mysql_password",
+    "database": "your_test_database_name",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username":" process.env.DB_angel",
+    "password": "process.env.DB_1380",
+    "database": "process.env.DB_feresht",
+    "host": "process.env.DB_5000",
+    "dialect": "mysql"
+  }
+}
